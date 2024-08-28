@@ -18,7 +18,6 @@ This is an advanced keylogger that continuously records keystrokes, logs system 
 
 ```bash
 git clone https://github.com/Ronak-Kumar1023/Keylogger.git
-cd keylogger-project
 ```
 
 ## Install dependencies:
