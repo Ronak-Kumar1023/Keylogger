@@ -20,7 +20,7 @@ This is an advanced keylogger that continuously records keystrokes, logs system 
 git clone https://github.com/Ronak-Kumar1023/Keylogger.git
 ```
 
-## Install dependencies:
+2. **Install dependencies:**
 
 Ensure you have Python installed. Then, install the required packages using pip:
 
@@ -28,7 +28,7 @@ Ensure you have Python installed. Then, install the required packages using pip:
 pip install cryptography pynput pyperclip requests python-dotenv
 ```
 
-## Set up environment variables:
+3. **Set up environment variables:**
 
 Create a .env file in the project directory and add the following variables:
 
@@ -42,13 +42,13 @@ FILE_PATH=your_desired_log_directory
 
 Ensure the FILE_PATH ends with a slash (/).
 
-## Run the keylogger:
+4. **Run the keylogger:**
 
 ```bash
 python keylogger.py
 ```
 
-## Decrypt logs (optional):
+5. **Decrypt logs (optional):**
 
 If you receive encrypted logs, you can decrypt them using the decrypt_logs.py script:
 
